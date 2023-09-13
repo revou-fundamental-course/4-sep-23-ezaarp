@@ -108,6 +108,28 @@ input::-webkit-inner-spin-button {
     background-color: #ffeb89;
 }
 
+.reset-btn {
+    margin-top: 1rem;
+    padding: 10px;
+    width: 7rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid black;
+    transition: .3s;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+.reset-btn:hover {
+    transform: scale(1.1, 1.1);
+    background-color: rgb(255, 84, 84);
+    color: white;
+}
+
 .answer {
     display: flex;
     flex-direction: column;

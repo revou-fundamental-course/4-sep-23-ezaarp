@@ -10,21 +10,24 @@
     <div class="title">
         <h1>SQUARE.</h1>
     </div>
-    <div class="main">
-        <div class="container">
-            <img src=".\assets/Sisi_persegi-removebg-preview.png" alt="Persegi">
-            <div class="wrap">
-                <div class="input">
-                    <label for="sisi">Panjang Sisi:</label>
-                    <input type="number" id="sisi" placeholder="Masukkan panjang sisi">
-                </div>
-                <button onclick="calculate ()">Hitung</button>
-                <div class="answer">
-                    <p>Luas Persegi: <span id="luas">-</span></p>
-                    <p>Keliling Persegi: <span id="keliling">-</span></p>
+    <form action="#">
+        <div class="main">
+            <div class="container">
+                <img src=".\assets/Sisi_persegi-removebg-preview.png" alt="Persegi">
+                <div class="wrap">
+                    <div class="input">
+                        <label for="sisi">Panjang Sisi:</label>
+                        <input type="number" id="sisi" placeholder="Masukkan panjang sisi">
+                    </div>
+                    <button onclick="calculate ()">Hitung</button>
+                    <input class="reset-btn" type="Reset" value="Reset">
+                    <div class="answer">
+                        <p>Luas Persegi: <span id="luas">-</span></p>
+                        <p>Keliling Persegi: <span id="keliling">-</span></p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </form>
 
         <div class="container2">
             <div class="rumus">

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQUARE</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>SQUARE.</h1>
+    </div>
+    <div class="main">
+        <div class="container">
+            <img src="assets/Sisi_persegi-removebg-preview.png" alt="Persegi">
+            <div class="wrap">
+                <div class="input">
+                    <label for="sisi">Panjang Sisi:</label>
+                    <input type="number" id="sisi" placeholder="Masukkan panjang sisi">
+                </div>
+                <button onclick="calculate ()">Hitung</button>
+                <div class="answer">
+                    <p>Luas Persegi: <span id="luas">-</span></p>
+                    <p>Keliling Persegi: <span id="keliling">-</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="rumus">
+                <p>Rumus luas persegi : <br><span>s * s</span></p>
+                <p>Rumus keliling persegi : <br><span>4 * s</span></p>
+            </div>
+
+        </div>
+    </div>
+    <script src="/script/script.js"></script>
+</body>
+</html>
